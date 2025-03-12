@@ -1,4 +1,4 @@
-#include "spky.dtsi"
+#include "spkyv4.dtsi"
 
 &kscan0 {
     col-gpios

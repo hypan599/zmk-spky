@@ -1,4 +1,4 @@
-#include "spky.dtsi"
+#include "spkyv4.dtsi"
 
 &default_transform {
     col-offset = <8>;
