@@ -1,0 +1,13 @@
+file_format: "1"
+id: spkyv4
+name: spkyV4
+type: shield
+url: https://github.com/hypan599/zmk-spky
+requires: [pro_micro]
+features:
+  - keys
+  - display
+  - encoder
+siblings:
+  - spkyv4_left
+  - spkyv4_right

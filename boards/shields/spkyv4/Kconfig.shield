@@ -1,0 +1,5 @@
+config SHIELD_SPKYV4_LEFT
+    def_bool $(shields_list_contains,spkyv4_left)
+
+config SHIELD_SPKYV4_RIGHT
+    def_bool $(shields_list_contains,spkyv4_right)
