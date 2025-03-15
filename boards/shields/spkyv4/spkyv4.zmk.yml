@@ -4,6 +4,7 @@ name: spkyV4
 type: shield
 url: https://github.com/hypan599/zmk-spky
 requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
   - display

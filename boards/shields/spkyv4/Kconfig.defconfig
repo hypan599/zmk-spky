@@ -13,7 +13,7 @@ if SHIELD_SPKYV4_LEFT || SHIELD_SPKYV4_RIGHT
 config ZMK_SPLIT
     default y
 
-    if ZMK_DISPLAY
+if ZMK_DISPLAY
 
 config I2C
     default y
