@@ -9,7 +9,7 @@
 #define LOCK LC(LG(Q))
 
 #define BASE    0
-#define NAVL    4
+#define NAVS    4
 #define MOUS    3
 #define FUNC    2
 #define NUMS    1
