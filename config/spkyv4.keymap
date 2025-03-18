@@ -31,7 +31,6 @@
                 label = "SCROLL_UP_DOWN";
                 #sensor-binding-cells = <2>;
                 bindings = <&msc>, <&msc>;
-                tap-ms = <20>;
             };
         };
 
@@ -48,7 +47,7 @@
 &kp LCTRL   &kp LALT    &kp LCMD    &kp SPACE   &kp SPACE   &kp SPACE   &lt NAVL SPACE  &lt MOUS SPACE                                  &lt FUNC BSPC   &lt NUMS SPACE  &kp RCMD    &kp RALT    &kp RCTRL   &kp LEFT        &kp DOWN        &kp RIGHT
                         >;
 
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &scroll_up_down SCRL_DOWN SCRL_UP>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
 
