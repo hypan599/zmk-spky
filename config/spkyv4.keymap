@@ -24,6 +24,17 @@
 //  RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7)          RC(4,8) RC(4,9) RC(4,10) RC(4,11) RC(4,12) RC(4,13) RC(4,14) RC(4,15)
 
 / {
+
+        behaviours {
+            scroll_up_down: scroll_up_down {
+                compatible = "zmk,behavior-sensor-rotate-var";
+                label = "SCROLL_UP_DOWN";
+                #sensor-binding-cells = <2>;
+                bindings = <&msc>, <&msc>;
+                tap-ms = <20>;
+            };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -37,7 +48,7 @@
 &kp LCTRL   &kp LALT    &kp LCMD    &kp SPACE   &kp SPACE   &kp SPACE   &lt NAVL SPACE  &lt MOUS SPACE                                  &lt FUNC BSPC   &lt NUMS SPACE  &kp RCMD    &kp RALT    &kp RCTRL   &kp LEFT        &kp DOWN        &kp RIGHT
                         >;
 
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &inc_dec_kp C_VOL_UP C_VOL_DN>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &scroll_up_down SCRL_DOWN SCRL_UP>;
                 };
 
 
