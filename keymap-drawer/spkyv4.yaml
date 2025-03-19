@@ -30,7 +30,7 @@ layers:
     - {t: Spc, h: mous}
     - {t: Bspc, h: mous}
     - {t: Spc, h: navs}
-    - RCMD
+    - ⌘
     - ⌥
     - ⌃
     - ←
@@ -442,15 +442,15 @@ layers:
     - {type: trans}
     - {type: trans}
 combos:
-- p: [43, 44]
+- p: [42, 43]
   k: {t: '[', right: '{'}
   l: [default]
-- p: [44, 45]
+- p: [43, 44]
   k: {t: ']', right: '}'}
   l: [default]
-- p: [29, 30]
+- p: [28, 29]
   k: (
   l: [default]
-- p: [30, 31]
+- p: [29, 30]
   k: )
   l: [default]
