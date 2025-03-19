@@ -1,0 +1,456 @@
+layout: {zmk_keyboard: spkyv4}
+layers:
+  default:
+  - ['$$mdi:volume-off$$', '', '', Ctl+Gui+Q, '`', '1', '2', '3', '4', '5', '6', Bspc, \, '7', '8', '9']
+  - ['0', '-', '=', Bspc, Tab, Q, W, E, R, T, Y, Y, U, I, O, P]
+  - - {t: '[', right: '{'}
+    - {t: ']', right: '}'}
+    - Esc
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - H
+    - J
+    - K
+    - L
+    - ;
+    - ''''
+    - ENTER
+  - [Shift, Shift, Z, X, C, V, B, ENTER, B, N, M, ',', ., /, ↑, Caps Word]
+  - - Ctrl
+    - Alt
+    - LCMD
+    - bt
+    - {t: Spc, h: func}
+    - {t: Spc, h: nums}
+    - {t: Spc, h: navs}
+    - {t: Spc, h: mous}
+    - {t: Bspc, h: mous}
+    - {t: Spc, h: navs}
+    - RCMD
+    - Alt
+    - Ctrl
+    - ←
+    - ↓
+    - →
+  nums:
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - '7'
+    - '8'
+    - '9'
+    - '='
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - Bspc
+    - Ctrl
+    - Alt
+    - Gui
+    - Shift
+    - Sft+Ctl+Alt
+    - {type: trans}
+    - '4'
+    - '5'
+    - '6'
+    - '-'
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - .
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  func:
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - F7
+    - F8
+    - F9
+    - F10
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - Ctrl
+    - Alt
+    - Gui
+    - Shift
+    - Sft+Ctl+Alt
+    - {type: trans}
+    - F4
+    - F5
+    - F6
+    - F11
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - F1
+    - F2
+    - F3
+    - F12
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  mous:
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - Left Click
+    - Mouse ↑
+    - Right Click
+    - Scroll ↑
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - Mouse ←
+    - Mouse ↓
+    - Mouse →
+    - Scroll ↓
+    - CMENU
+    - {type: trans}
+    - {type: trans}
+    - Shift
+    - RCMD
+    - Alt
+    - Ctrl
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - Scroll ←
+    - Middle Click
+    - Scroll →
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  navs:
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - ↑
+    - {type: trans}
+    - PgUp
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - ←
+    - ↓
+    - →
+    - PgDn
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - Shift
+    - RCMD
+    - Alt
+    - Ctrl
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - Home
+    - Ins
+    - End
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  bt:
+  - - BT CLR
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - BT 1
+    - BT 2
+    - BT 3
+    - BT 4
+    - {t: BT, h: '4'}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$mdi:skip-backward$$
+    - $$mdi:play-pause$$
+    - $$mdi:skip-forward$$
+    - $$mdi:volume-off$$
+    - $$mdi:volume-medium$$
+    - $$mdi:volume-high$$
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+combos:
+- p: [43, 44]
+  k: {t: '[', right: '{'}
+  l: [default]
+- p: [44, 45]
+  k: {t: ']', right: '}'}
+  l: [default]
+- p: [29, 30]
+  k: (
+  l: [default]
+- p: [30, 31]
+  k: )
+  l: [default]
