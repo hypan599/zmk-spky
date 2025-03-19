@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: spkyv4}
 layers:
   default:
-  - ['$$mdi:volume-off$$', '', '', Ctl+Gui+Q, '`', '1', '2', '3', '4', '5', '6', Bspc, \, '7', '8', '9']
+  - ['$$mdi:volume-off$$', '', '', LOCK, '`', '1', '2', '3', '4', '5', '6', Bspc, \, '7', '8', '9']
   - ['0', '-', '=', Bspc, Tab, Q, W, E, R, T, Y, Y, U, I, O, P]
   - - {t: '[', right: '{'}
     - {t: ']', right: '}'}
@@ -19,10 +19,10 @@ layers:
     - ;
     - ''''
     - ENTER
-  - [Shift, Shift, Z, X, C, V, B, ENTER, B, N, M, ',', ., /, ↑, Caps Word]
-  - - Ctrl
-    - Alt
-    - LCMD
+  - [⇧, ⇧, Z, X, C, V, B, ENTER, B, N, M, ',', ., /, ↑, Caps Word]
+  - - ⌃
+    - ⌥
+    - ⌘
     - bt
     - {t: Spc, h: func}
     - {t: Spc, h: nums}
@@ -31,8 +31,8 @@ layers:
     - {t: Bspc, h: mous}
     - {t: Spc, h: navs}
     - RCMD
-    - Alt
-    - Ctrl
+    - ⌥
+    - ⌃
     - ←
     - ↓
     - →
@@ -72,11 +72,11 @@ layers:
   - - {type: trans}
     - {type: trans}
     - Bspc
-    - Ctrl
-    - Alt
-    - Gui
-    - Shift
-    - Sft+Ctl+Alt
+    - ⌃
+    - ⌥
+    - ⌘
+    - ⇧
+    - Meh
     - {type: trans}
     - '4'
     - '5'
@@ -153,11 +153,11 @@ layers:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
-    - Ctrl
-    - Alt
-    - Gui
-    - Shift
-    - Sft+Ctl+Alt
+    - ⌃
+    - ⌥
+    - ⌘
+    - ⇧
+    - Meh
     - {type: trans}
     - F4
     - F5
@@ -241,10 +241,10 @@ layers:
     - CMENU
     - {type: trans}
     - {type: trans}
-    - Shift
-    - RCMD
-    - Alt
-    - Ctrl
+    - ⇧
+    - ⌘
+    - ⌥
+    - ⌃
     - {type: trans}
     - {type: trans}
   - - {type: trans}
@@ -322,10 +322,10 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - Shift
-    - RCMD
-    - Alt
-    - Ctrl
+    - ⇧
+    - ⌘
+    - ⌥
+    - ⌃
     - {type: trans}
     - {type: trans}
   - - {type: trans}
@@ -370,7 +370,7 @@ layers:
     - BT 2
     - BT 3
     - BT 4
-    - {t: BT, h: '4'}
+    - BT 5
     - {type: trans}
     - {type: trans}
     - {type: trans}

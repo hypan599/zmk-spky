@@ -9,6 +9,7 @@ parse_config:
     "&bt BT_SEL 1": BT 2
     "&bt BT_SEL 2": BT 3
     "&bt BT_SEL 3": BT 4
+    "&bt BT_SEL 4": BT 5
 
     "&kp LC(INS)": Copy
     "&kp LC(X)": Cut
@@ -16,21 +17,10 @@ parse_config:
 
     "&kp LG(LC(LEFT))": Prev Desk
     "&kp LG(LC(RIGHT))": Next Desk
-    "&kp LG(LC(LS(A)))": Pin App
-    "&kp LG(LC(LS(Q)))": Pin Win
 
-    "&swapper": Next Win
-    "&kp LS(TAB)": Prev Win
-    "&dot_spc": Sentence
-    "&num_dance": { "t": "Numword", "s": "Sticky Num" }
-    "&magic_shift": { "t": Magic, "h": "Shift" }
-    "&smart_mouse": Smart Mouse
+    "&kp LC(LG(Q))": LOCK
+    "&kp LS(LC(LALT))": Meh
 
-    "&hml LS(LALT)TAB": Tab
-    "&hm_combo_ldr": Leader
-    "&hm_combo_ldrsh": Shift+Leader
-    "&hm_combo_lpar": { "t": "(", "right": "<" }
-    "&hm_combo_rpar": { "t": ")", "right": ">" }
     "&kp LBKT": { "t": "[", "right": "{" }
     "&kp RBKT": { "t": "]", "right": "}" }
 
@@ -63,19 +53,19 @@ parse_config:
 
   zmk_keycode_map:
     # custom mappings
-    LALT: Alt
-    RALT: Alt
-    LCTRL: Ctrl
-    RCTRL: Ctrl
-    LGUI: Gui
-    RGUI: Gui
-    LSHFT: Shift
-    RSHFT: Shift
+    LALT: ⌥
+    RALT: ⌥
+    LCTRL: ⌃
+    RCTRL: ⌃
+    LGUI: ⌘
+    RGUI: ⌘
+    LSHFT: ⇧
+    RSHFT: ⇧
 
     BSPC: Bspc
     DEL: Del
     ESC: Esc
-    RET: Enter
+    RET: ⏎
     SPACE: Spc
     TAB: Tab
 
