@@ -71,7 +71,7 @@
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                  &trans      &trans      &trans      &trans      &trans      &trans          &trans          &trans
                         >;
 
-                        sensor-bindings = <&trans &trans    &trans  &trans>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
                 func_layer {
@@ -84,7 +84,7 @@
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                  &trans      &trans      &trans      &trans      &trans      &trans          &trans          &trans
                         >;
 
-                        sensor-bindings = <&trans &trans    &trans  &trans>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
                 mous_layer {
@@ -97,7 +97,7 @@
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                  &trans      &trans      &trans      &trans      &trans      &trans          &trans          &trans
                         >;
 
-                        sensor-bindings = <&trans &trans    &trans  &trans>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
                 navs_layer {
@@ -110,7 +110,7 @@
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                  &trans      &trans      &trans      &trans      &trans      &trans          &trans          &trans
                         >;
 
-                        sensor-bindings = <&trans &trans    &trans  &trans>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
 
@@ -124,7 +124,7 @@
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                  &trans      &trans      &trans      &trans      &trans      &trans          &trans          &trans
                         >;
 
-                        sensor-bindings = <&trans &trans    &trans  &trans>;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN            &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
 
 
