@@ -64,24 +64,8 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - '7'
-    - '8'
-    - '9'
-    - '='
     - {type: trans}
-  - - {type: trans}
     - {type: trans}
-    - Bspc
-    - ⌃
-    - ⌥
-    - ⌘
-    - ⇧
-    - Meh
-    - {type: trans}
-    - '4'
-    - '5'
-    - '6'
-    - '-'
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -93,11 +77,27 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - '0'
-    - '1'
-    - '2'
-    - '3'
-    - .
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -145,24 +145,8 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - F7
-    - F8
-    - F9
-    - F10
-    - {type: trans}
-  - - {type: trans}
     - {type: trans}
     - {type: trans}
-    - ⌃
-    - ⌥
-    - ⌘
-    - ⇧
-    - Meh
-    - {type: trans}
-    - F4
-    - F5
-    - F6
-    - F11
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -175,10 +159,26 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - F1
-    - F2
-    - F3
-    - F12
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -220,10 +220,10 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - Left Click
-    - Mouse ↑
-    - Right Click
-    - Scroll ↑
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -234,24 +234,24 @@ layers:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
-    - Mouse ←
-    - Mouse ↓
-    - Mouse →
-    - Scroll ↓
-    - CMENU
     - {type: trans}
     - {type: trans}
-    - ⇧
-    - ⌘
-    - ⌥
-    - ⌃
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
   - - {type: trans}
     - {type: trans}
-    - Scroll ←
-    - Middle Click
-    - Scroll →
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -302,9 +302,9 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - ↑
     - {type: trans}
-    - PgUp
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -315,24 +315,24 @@ layers:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
-    - ←
-    - ↓
-    - →
-    - PgDn
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - ⇧
-    - ⌘
-    - ⌥
-    - ⌃
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
   - - {type: trans}
     - {type: trans}
-    - Home
-    - Ins
-    - End
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -361,22 +361,6 @@ layers:
     - {type: trans}
     - {type: trans}
   bt:
-  - - BT CLR
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - BT 1
-    - BT 2
-    - BT 3
-    - BT 4
-    - BT 5
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
   - - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -402,12 +386,28 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - $$mdi:skip-backward$$
-    - $$mdi:play-pause$$
-    - $$mdi:skip-forward$$
-    - $$mdi:volume-off$$
-    - $$mdi:volume-medium$$
-    - $$mdi:volume-high$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
     - {type: trans}
   - - {type: trans}
     - {type: trans}
