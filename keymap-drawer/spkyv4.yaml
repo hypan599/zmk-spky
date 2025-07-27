@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: spkyv4}
 layers:
   default:
-  - ['$$mdi:volume-off$$', '', '', LOCK, '`', '1', '2', '3', '4', '5', '6', Bspc, \, '7', '8', '9']
+  - ['$$mdi:volume-off$$', '', '', LOCK, '`', '1', '2', '3', '4', '5', '6', '&studio_unlock', \, '7', '8', '9']
   - ['0', '-', '=', Bspc, Tab, Q, W, E, R, T, Y, Y, U, I, O, P]
   - - {t: '[', right: '{'}
     - {t: ']', right: '}'}
